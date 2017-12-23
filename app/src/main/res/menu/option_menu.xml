@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/place"
+        android:title="current location"
+        android:icon="@drawable/ic_placeholder"
+        app:showAsAction="always|withText"/>
+    <item android:icon="@drawable/network"
+        android:title="share"
+        android:id="@+id/share"
+        app:showAsAction="collapseActionView|ifRoom"/>
+    <item android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:title="search"
+        app:showAsAction="always"/>
+    <item android:title="social">
+        <menu >
+            <item android:title="facebook"
+                android:id="@+id/fb"
+                android:icon="@drawable/settings"/>
+            <item android:title="google plus"
+                android:id="@+id/google"/>
+            <item android:title="twitter"
+                android:id="@+id/twitter"/>
+        </menu>
+    </item>
+    <item android:title="setting"
+        android:icon="@drawable/settings"
+        android:id="@+id/setting"/>
+</menu>
